@@ -1,0 +1,58 @@
+.comment {
+    padding-top: 100px;
+
+    @include desktop-big{
+
+    }
+
+    &__text {
+        
+    }
+
+    &__main {
+        display: flex;
+        align-items:flex-start;
+        justify-content: space-around;
+    }
+
+    &__img {
+
+    }
+
+    &__article {
+        margin-top: 84px;
+
+    }
+
+    &__title {
+
+color: var(--black);
+font-family: var(--ff);
+font-size: 24px;
+font-weight: 600;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: left;
+    }
+
+    &__desc {
+        max-width: 412px;
+        color: var(--desc);
+font-family: var(--ff);
+font-size: 16px;
+font-weight: 400;
+line-height: 160%;
+letter-spacing: 0%;
+text-align: left;
+    }
+
+    &__aside {
+        @include desktop-small{
+            display: none;
+        }   
+    }
+}
+.title {
+}
+.desc {
+}

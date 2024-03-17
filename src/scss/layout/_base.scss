@@ -1,0 +1,73 @@
+html, body {
+	width: 100%;
+	height: 100%;
+}
+body {
+	font-family: var(--ff);
+	overflow-x: hidden;
+	background-color: #FEFEFE;
+	display: flex;
+	
+}
+.container {
+	max-width: 1300px;
+	margin: 0 auto;
+
+}
+.main {
+	padding: 20px;
+}
+
+.title{
+	color: var(--black);
+font-family: var(--ff);
+font-size: 40px;
+font-weight: 800;
+line-height: 49px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.page{
+	color: var(--desc);
+font-family: var(--ff);
+font-size: 16px;
+font-weight: 400;
+line-height: 160%;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.link{
+	padding: 20px 40px;
+	color: var(--link-white);
+font-family: var(--ff);
+font-size: 20px;
+font-weight: 400;
+line-height: 25px;
+letter-spacing: 6.5%;
+text-align: left;
+}
+
+.span{
+	color: rgb(0, 0, 0);
+font-family: Averta Demo PE Cutted Demo;
+font-size: 27.15px;
+font-weight: 800;
+line-height: 10px;
+letter-spacing: 0%;
+text-align: left;
+
+}
+
+.btn{
+	border-radius: 60px;
+
+	background: var(--btn);
+
+	&:hover{
+		border-radius: 60px;
+		transition: var(--transition);
+	background: rgba(38, 168, 237, 0.65);
+	}
+}

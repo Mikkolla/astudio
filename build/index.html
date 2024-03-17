@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>A-Studio</title>
+	<link rel="rel" type="images/x-icon" href="/src/favicon.ico">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="./css/main.css" />
+</head>
+
+<body>
+	<div class="container">
+		<header class="header  ">
+	<a href="/" class="header__logo"><img src="./img/header/logo.svg" alt="logo"></a>
+	<nav class="header__nav">
+		<div class="header__backdrop" id="headerBackdrop" onclick="navToggle()"></div>
+		<ul class="header__ul" id="headerUl">
+			<li class="header__li"><a class="header__a" href="home.html">Home</a></li>
+			<li class="header__li"><a class="header__a" href="wedo.html">What We Do</a></li>
+			<li class="header__li"><a class="header__a" href="service.html">Service</a></li>
+			
+			<li class="header__li"><a class="header__a" href="/">Project</a></li>
+			<li class="header__li"><a class="header__a" href="/">Blog</a></li>
+			<li class="header__li"><a class="header__a" href="/">Contact</a></li>
+			<span class="material-icons icon-close" onclick="navToggle()">close</span>
+		</ul>
+		
+		<span class="material-icons icon-menu" onclick="navToggle()">menu</span>
+	</nav>
+</header>
+
+		<section class="main">
+  <article class="main__text">
+    <h1 class="main__title">A Digital Product Agency</h1>
+    
+    <p style="max-width: 471px;padding-bottom: 33px;" class="page">
+      Leading digital agency with solid design and development expertise. We
+      build readymade websites, mobile applications, and elaborate online
+      business services.
+    </p>
+
+    <a   href="/" class="link btn"> Contact Now </a>
+  </article>
+
+  <div class="main__img">
+    <img class="img1" src="./img/main/main.png" alt="main" />
+    <img class="img2" src="./img/main/main2.png" alt="main2">
+  </div>
+</section>
+
+		<section class="client">
+  <aside class="client__aside">
+    <h1 class="h1">Our Client</h1>
+    <p class="client__desc">
+      Several selected clients, who already believe in our service.
+    </p>
+  </aside>
+
+  <div class="client__img">
+    <a href="https://www.google.com.ua/"><img src="./img/client/google.svg" alt="png" /></a>
+    <a href="https://www.airbnb.com.ua/"><img src="./img/client/airbnb.svg" alt="png" /></a>
+    <a href="https://www.ubereats.com/ua"><img src="./img/client/uber.svg" alt="png" /></a>
+    <a href="https://www.amazon.com/"><img src="./img/client/amazon.svg" alt="png" /></a>
+    
+  </div>
+</section>
+
+		<section class="business">
+  <aside class="business__aside">
+    <h1 style="max-width: 358px" class="title">
+      How can we help your Business ?
+    </h1>
+
+    <p style="max-width: 396px" class="page">
+      We build readymade websites, mobile applications, and elaborate online
+      business services.
+    </p>
+  </aside>
+
+  <main class="business__main">
+    <div class="business__block01">
+      <div class="business__column">
+        <div class="business__img-bg01">
+          <div class="business__img">
+            <img src="./img/business/01.svg" alt="01" />
+          </div>
+        </div>
+
+        <h3 class="business__title">
+            Business Idea Planning
+        </h3>
+        <p  class="business__desc">
+            We present you a proposal and discuss niffty-gritty like
+        </p>
+      </div>
+
+      <div class="business__column">
+        <div class="business__img-bg02">
+          <div class="business__img">
+            <img src="./img/business/02.svg" alt="02" />
+          </div>
+        </div>
+
+        <h3 class="business__title">Development Website and App</h3>
+        <p class="business__desc">Communication protocols apart from engagement models</p>
+      </div>
+    </div>
+
+    <div class="business__block02">
+      <div class="business__column">
+        <div class="business__img-bg03">
+          <div class="business__img">
+            <img src="./img/business/03.svg" alt="03" />
+          </div>
+        </div>
+
+        <h3 class="business__title">Financial Planning System</h3>
+        <p class="business__desc">Protocols apart from aengage models, pricing billing</p>
+      </div>
+
+      <div class="business__column">
+        <div class="business__img-bg04">
+          <div class="business__img">
+            <img src="./img/business/04.svg" alt="04" />
+          </div>
+        </div>
+
+        <h3 class="business__title">Market Analysis Project</h3>
+        <p class="business__desc">Protocols apart from aengage models, pricing billing</p>
+      </div>
+    </div>
+  </main>
+</section>
+
+		<section class="product">
+  <div >
+    <iframe class="product__video" width="560" height="315" src="https://www.youtube.com/embed/Oe9AL88ebME?si=zDX1kdIRzL8egXJP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  </div>
+
+  <aside class="product__aside">
+    <h1  class="product__title">Great Digital Product Agency since 2016</h1>
+    <p class="product__desc ">
+      Our Business Plan is a written document describing a company's core
+      business activites, Objectives, and how it plans to achieve its goals. Our
+      goal is to provide our client high quality Product with modern idea
+      accordingly their budgets and according thir reuirements.
+    </p>
+  </aside>
+</section>
+
+		<section class="comment">
+  
+    <h1 style="text-align: center;" class="title">What our happy client say</h1>
+    <p style="text-align: center; margin-bottom: 113px;" class="desc">
+      Several selected clients, who already believe in our service.
+    </p>
+  
+
+  <main class="comment__main">
+    <div class="comment__img">
+      <img src="./img/comment/men.png" alt="" />
+    </div>
+
+    <article class="comment__article">
+      <h3 class="comment__title">Matthew Paul</h3>
+      <p class="comment__desc">Perfect, very good job! Thank you for the amazing design and work. Really impressed with the high quality and quick turnaround time. Highly recommend.</p>
+    </article>
+
+    <aside class="comment__aside">
+      <img src="./img/comment/group.png" alt="" />
+    </aside>
+  </main>
+</section>
+
+		<section class="span">
+    <article class="span__article">
+        
+        <h1 class="title">Subscribe Newsletter</h1>
+        <p class="page">I will update good news and promotion service not spam</p>
+
+    </article>
+
+    <main class="span__main">
+        <input class="span__input" type="email" placeholder="Enter your email address.." >
+        <a href="/" class="span__link">Contact Now</a>
+    </main>
+  
+    
+
+</section>
+	<footer class="footer">
+  <article class="footer__article">
+    <a href="/" class="footer__img">
+      <img src="./img/header/logo-footer.svg" alt="logo-footer" />
+    </a>
+
+    <p class="footer__desc" >
+		Leading digital agency with solid design and development expertise. We build readymade websites, mobile applications, and elaborate online business services.
+	</p>
+
+    <div class="footer__img-app">
+      <a target="_blank" href="https://www.facebook.com/">
+        <img src="./img/header/meta.svg" alt="meta" />
+      </a>
+      <a target="_blank" href="https://twitter.com/">
+        <img src="./img/header/x.svg" alt="x" />
+      </a>
+      <a target="_blank" href="https://www.linkedin.com/feed/">
+        <img src="./img/header/link.svg" alt="link" />
+      </a>
+    </div>
+  </article>
+
+  <nav class="footer__nav">
+    <div class="footer__target"> <h3 class="footer__title">What We Do</h3>
+
+		<nav class="footer__item">
+		  <a href="/" class="footer__link">Web Design </a>
+		  <a href="/" class="footer__link">App Design</a>
+		  <a href="/" class="footer__link">Social Media Manage</a>
+		  <a href="/" class="footer__link">Market Analysis Project</a>
+		</nav>
+	</div>
+     
+     <div class="footer__target"> <h3 class="footer__title">Company</h3>
+
+		<nav class="footer__item">
+		  <a href="/" class="footer__link">  About Us </a>
+		  <a href="/" class="footer__link"> Career</a>
+		  <a href="/" class="footer__link">Become Investor</a>
+		
+		</nav>
+	</div>
+	<div class="footer__target"> <h3 class="footer__title">Support</h3>
+
+		<nav class="footer__item">
+		  <a href="/" class="footer__link">  FAQ </a>
+		  <a href="/" class="footer__link"> Policy</a>
+		  <a href="/" class="footer__link"> Business</a>
+		
+		</nav>
+	</div>
+	<div class="footer__target"> <h3 class="footer__title">Contact</h3>
+
+		<nav class="footer__item">
+		  <a href="/" class="footer__link">WhatsApp </a>
+		  <a href="/" class="footer__link">Support 24</a>
+
+		</nav>
+	</div>
+  </nav>
+</footer>
+
+	
+	</div>
+	
+	<script src="./js/index.bundle.js"></script>
+	<script>
+		function navToggle() {
+			document.getElementById("headerUl").classList.toggle("_active");
+			document.getElementById("headerBackdrop").classList.toggle("_active");
+			
+		}
+	</script>
+	
+</body>
+
+</html>

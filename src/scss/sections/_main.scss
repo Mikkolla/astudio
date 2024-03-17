@@ -1,0 +1,64 @@
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 26px;
+
+    @include desktop-big{
+        padding: 20px;
+    }
+
+    @include tablet-middle{
+        flex-direction: column-reverse;
+        
+    }
+
+    @include tablet-small{
+    
+       align-items: flex-start;
+    }
+    &__text {
+    }
+
+    &__title{
+        padding-bottom: 40px;
+        color: var(--black);
+font-family: var(--ff);
+font-size: 40px;
+font-weight: 800;
+line-height: 49px;
+letter-spacing: 0%;
+
+    }
+
+    &__img {
+    }
+}
+
+.img1{
+    width: 703px;
+    height: 512px;
+    @include tablet-middle{
+        display: none;
+    }
+    
+}
+
+.img2{
+    
+   
+    display: none;
+    @include tablet-middle{
+        display: block;
+        
+    }
+}
+
+.title {
+}
+.page {
+}
+.link {
+}
+.btn {
+}

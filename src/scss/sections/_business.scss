@@ -1,0 +1,151 @@
+.business {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+    gap: 91px;
+
+    @include desktop-big{
+        padding: 20px;
+    }
+
+    @include desktop-small{
+        flex-direction: column;
+        align-items: flex-start;
+        
+    }
+
+    &__aside {
+    }
+
+    &__main {
+        display: flex;
+        
+        gap: 34px;
+
+        @include desktop-small{
+            margin:  0 auto;
+        }   
+
+        @include tablet-small{
+           flex-direction: column;
+        }
+
+    }
+
+    &__block01 {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        margin-top: 80px;
+        @include tablet-big{
+         margin: 0;   
+        }
+    }
+
+    &__block02{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+
+        @include tablet-big{
+            margin-top: 40px;
+        }
+    }
+
+
+    &__column {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 308px;
+        height: 379px;
+
+
+        box-sizing: border-box;
+border: 1px solid rgb(242, 242, 242);
+border-radius: 40px;
+
+box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.05);
+background: rgb(255, 255, 255);
+        @include tablet-middle{
+            width: 290px;
+            height: 340px;
+        }
+
+        @include tablet-small{
+            width: 260px;
+        }    
+
+    }
+
+    &__img-bg01 {
+        margin-top: 40px;
+        width: 121px;
+        height: 121px;
+        border-radius: 20px;
+        background-color: var(--blue-bg);
+  
+    }
+
+    &__img-bg02 {
+        margin-top: 40px;
+        width: 121px;
+        height: 121px;
+        border-radius: 20px;
+        background-color: var(--rose-bg);
+    }
+
+
+    &__img-bg03 {
+        margin-top: 40px;
+        width: 121px;
+        height: 121px;
+        border-radius: 20px;
+        background-color: var(--ylw-bg);
+    }
+
+    &__img-bg04 {
+        margin-top: 40px;
+        width: 121px;
+        height: 121px;
+        border-radius: 20px;
+        background-color: var(--green-bg);
+    }
+
+    
+    &__img {
+        display: flex;
+        padding-top: 25px;
+        justify-content: center;
+        
+    }
+
+    &__title {
+        
+        color: var(--black);
+font-family: var(--ff);
+font-size: 24px;
+font-weight: 600;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: center;
+max-width: 230px;
+    }
+
+    &__desc {
+       max-width: 245px;
+        color: var(--desc);
+font-family: var(--ff);
+font-size: 16px;
+font-weight: 400;
+line-height: 140%;
+letter-spacing: 0%;
+text-align: center;
+    }
+}
+.title {
+}
+.page {
+}

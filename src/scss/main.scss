@@ -1,0 +1,38 @@
+// vendors
+@import 'vendors/reset';
+
+// utils
+@import 'utils/vars';
+@import 'utils/mixins';
+
+// layout
+@import 'layout/base';
+@import 'layout/scroll';
+@import 'layout/grid';
+
+// components
+@import 'components/header';
+@import 'components/footer';
+
+@import 'sections/main';
+@import 'sections/client';
+@import 'sections/business';
+@import 'sections/product';
+@import 'sections/comment';
+@import 'sections/span';
+
+@import 'tabs/home';
+
+// need to remove
+@import 'components/template';
+
+@font-face {
+    
+    font-family: 'Averta Demo PE Cutted Demo';
+    font-weight: 400;
+    
+    
+    src: url('font/avertademope-regular.ttf') format('woff2');
+    
+  }
+  

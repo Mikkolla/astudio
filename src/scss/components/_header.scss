@@ -1,0 +1,113 @@
+.header {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	min-height: 110px;
+	gap: 435px;
+	
+	@include desktop-big{
+		padding: 10px;
+		gap: 0;
+	}
+	@include tablet-small{
+		padding: 20px;
+		justify-content: space-between;
+	}
+
+	&__backdrop {
+		background: rgba(0, 0, 0, 0.6);
+		position: fixed;
+		width: 100%;
+		height: 100%;
+		left: 0;
+		top: 0;
+		z-index: 1;
+		transform: translateX(120%);
+		display: none;
+		transition: var(--transition);
+		opacity: 0;
+
+		@include tablet-middle {
+			display: block;
+		}
+
+		&._active {
+			opacity: 1;
+			transform: translateX(0);
+		}
+	}
+
+	&__ul {
+		 display: flex;
+		 align-items: center;
+		 gap: 60px;
+		 z-index: 9;
+		
+
+	
+		@include tablet-big{
+			gap: 30px;
+
+			
+		} 
+
+		@include tablet-middle {
+			z-index: 9;
+			position: fixed;
+			width: 70%;
+			height: 100%;
+			flex-direction: column;
+			left: 0;
+			top: 0;
+			background: var(--c-primary);
+			align-items: center;
+			justify-content: center;
+			transform: translateX(-120%);
+			transition: var(--transition);
+		}
+
+		&._active {
+			transform: translateX(0);
+		}
+
+		.icon-close {
+			position: absolute;
+			top: 40px;
+			right: 40px;
+			color: var(--c-text-white);
+		}
+	}
+
+	&__a {
+		color: var(--black);
+font-family: var(--ff);
+font-size: 16px;
+font-weight: 800;
+line-height: 20px;
+letter-spacing: 1%;
+text-align: left;
+&:hover{
+	color: #505050;
+	transition: var(--transition);
+font-family: Averta Demo PE Cutted Demo;
+opacity: 0.5;
+
+font-weight: 800;
+
+
+}
+		@include tablet-middle {
+			color: var(--c-text-white);
+		}
+	}
+}
+
+.icon-menu,
+.icon-close {
+	cursor: pointer;
+	display: none;
+
+	@include tablet-middle {
+		display: inline-block;
+	}
+}
